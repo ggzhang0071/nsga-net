@@ -2,6 +2,7 @@
 import sys
 # sys.path.insert(0, '/path/to/nsga-net')
 sys.path.insert(0, '/Users/zhichao.lu/Dropbox/2019/github/nsga-net')
+sys.path.append('..')
 
 from graphviz import Digraph
 from models.macro_decoder import ResidualPhase

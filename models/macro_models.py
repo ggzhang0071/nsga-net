@@ -41,7 +41,7 @@ class EvoNetwork(nn.Module):
         :param genome: depends on decoder scheme, for most this is a list.
         :param channels: list of desired channel tuples.
         :param out_features: number of output features.
-        :param decoder: string, what kind of decoding scheme to use.
+        :param decoder: string, what kind of decoding scheme to use.(what?)
         """
         super(EvoNetwork, self).__init__()
 
